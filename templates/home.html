@@ -1,0 +1,12 @@
+<form method="POST">
+    {% csrf_token %}
+    <a>("""      1) add anew employee</a>
+    <p>   2)list all employee</p>
+        <p>   3)delete by age</p>
+            <p>  4)update salary given a name</p>
+                <p> 5)End the program
+        """)</p>
+    <input type="text" placeholder="Username" name='username' required>
+    <input type="text" placeholder="age"  name='age' required>
+    <input type="text" placeholder="salary"  name='salary' required>
+</form>
